@@ -17,9 +17,13 @@ Vagrant: https://developer.hashicorp.com/vagrant/docs/installation
 ## Setup Jenkins UI
 
 ```vagrant ssh jenkins```
+
 ```sudo cat /var/lib/jenkins/secrets/initialAdminPassword```
+
 ```Jenkins URL: http://192.168.56.13:8080/```
 
 ## Cleanup
 
-* `vagrant halt; vagrant destroy -f`
+```vagrant halt``` 
+
+```vagrant destroy -f```
