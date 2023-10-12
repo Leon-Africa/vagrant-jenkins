@@ -18,7 +18,7 @@ Vagrant: https://developer.hashicorp.com/vagrant/docs/installation
 
 ```vagrant ssh jenkins```
 ```sudo cat /var/lib/jenkins/secrets/initialAdminPassword```
-```Jenkins URL: http://192.168.56.777:8080/```
+```Jenkins URL: http://192.168.56.13:8080/```
 
 ## Cleanup
 
